@@ -1,0 +1,16 @@
+[
+{
+  "modid": "canada",
+  "name": "Canadia Mod",
+  "description": "Enjoy the wonders in the mystical land of Canadia, eh?",
+  "version": "pre1",
+  "url": "https://github.com/DarthFeder/Canadia-Mod.git",
+  "updateUrl": "",
+  "authorList": ["Darth_Feder"],
+  "credits": "By Darth",
+  "logoFile": "",
+  "screenshots": [],
+  "parent":"",
+  "dependencies": ["mod_MinecraftForge"]
+}
+]
