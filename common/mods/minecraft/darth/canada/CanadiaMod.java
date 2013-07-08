@@ -3,6 +3,7 @@ package mods.minecraft.darth.canada;
 import net.minecraft.creativetab.CreativeTabs;
 import mods.minecraft.darth.canada.core.proxy.CommonProxy;
 import mods.minecraft.darth.canada.creativetabs.CreativeTabCanada;
+import mods.minecraft.darth.canada.item.ModItems;
 import mods.minecraft.darth.canada.lib.Reference;
 
 import cpw.mods.fml.common.Mod;
@@ -33,6 +34,7 @@ public class CanadiaMod
         public void preInit(FMLPreInitializationEvent event)
         {
             
+            ModItems.init();
             
         }
         

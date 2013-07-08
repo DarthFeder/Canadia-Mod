@@ -10,5 +10,5 @@ public class Reference
     public static final String MC_VERSIONS = "";
     public static final String SERVER_PROXY_CLASS = "mods.minecraft.darth.canada.core.proxy.CommonProxy";
     public static final String CLIENT_PROXY_CLASS = "mods.minecraft.darth.canada.core.proxy.ClientProxy";
-    public static final int CANADA_CREATIVE_TAB_ICON = 2;
+    public static final int CANADA_CREATIVE_TAB_ICON = ItemIDs.MAPLE_SYRUP;
 }
