@@ -7,6 +7,7 @@ import mods.minecraft.darth.canada.core.proxy.CommonProxy;
 import mods.minecraft.darth.canada.creativetabs.CreativeTabCanada;
 import mods.minecraft.darth.canada.item.ModItems;
 import mods.minecraft.darth.canada.lib.Reference;
+import mods.minecraft.darth.canada.world.WorldTypeCanadia;
 import mods.minecraft.darth.canada.core.handlers.LocalizationHandler;
 
 import cpw.mods.fml.common.Mod;
@@ -33,7 +34,8 @@ public class CanadiaMod
         
         public static CreativeTabs tabCanadia = new CreativeTabCanada(Reference.MOD_ID);
         
-        public static final WorldType CANADIA = new WorldType(12, "canada");
+        public static final WorldType CANADIA = new WorldTypeCanadia(12, "canada");
+        
         
         @PreInit
         public void preInit(FMLPreInitializationEvent event)
