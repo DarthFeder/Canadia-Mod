@@ -6,7 +6,7 @@ public class Reference
     public static final String MOD_ID = "canada";
     public static final String MOD_NAME = "CanadiaMod";
     public static final String VERSION = "pre1";
-    public static final String DEPENDENCIES = "required-after:Forge@[7.7.1.684,)";
+    public static final String DEPENDENCIES = "required-after:Forge@[9.10.0.804,)";
     public static final String MC_VERSIONS = "";
     public static final String SERVER_PROXY_CLASS = "mods.minecraft.darth.canada.core.proxy.CommonProxy";
     public static final String CLIENT_PROXY_CLASS = "mods.minecraft.darth.canada.core.proxy.ClientProxy";
