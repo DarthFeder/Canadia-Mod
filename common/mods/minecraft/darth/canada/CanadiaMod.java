@@ -11,10 +11,8 @@ import mods.minecraft.darth.canada.world.WorldTypeCanadia;
 import mods.minecraft.darth.canada.core.handlers.LocalizationHandler;
 
 import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.Init;
+import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
-import cpw.mods.fml.common.Mod.PostInit;
-import cpw.mods.fml.common.Mod.PreInit;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -37,7 +35,7 @@ public class CanadiaMod
         public static final WorldType CANADIA = new WorldTypeCanadia(12, "canada");
         
         
-        @PreInit
+        @EventHandler
         public void preInit(FMLPreInitializationEvent event)
         {
             
@@ -49,14 +47,14 @@ public class CanadiaMod
             
         }
         
-        @Init
+        @EventHandler
         public void load(FMLInitializationEvent event)
         {
             
             
         }
         
-        @PostInit
+        @EventHandler
         public void postInit(FMLPostInitializationEvent event)
         {
             
