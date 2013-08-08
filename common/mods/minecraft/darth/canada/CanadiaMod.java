@@ -3,6 +3,7 @@ package mods.minecraft.darth.canada;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.world.WorldType;
 
+import mods.minecraft.darth.canada.block.ModBlocks;
 import mods.minecraft.darth.canada.core.proxy.CommonProxy;
 import mods.minecraft.darth.canada.creativetabs.CreativeTabCanada;
 import mods.minecraft.darth.canada.item.ModItems;
@@ -41,6 +42,9 @@ public class CanadiaMod
             
             //Load Language Localization Files
             LocalizationHandler.loadLanguages();
+            
+            //Load Mod Blocks
+            ModBlocks.init();
             
             //Load Mod Items
             ModItems.init();

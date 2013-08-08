@@ -6,6 +6,9 @@
 	<entry key="item.mapleSyrup.name">Maple Syrup</entry>
 	<entry key="item.hockeyStick.name">Hockey Stick</entry>
 	<entry key="item.hockeyPuck.name">Hockey Puck</entry>
+	<entry key="item.canadianAxe.name">Canadian Axe of POWWWWWWEEEERRR!!!!</entry>
+	
+	<entry key="tile.mapleLog.name">Maple Log</entry>
 	
 	<entry key="itemGroup.canada">Canadia Mod</entry>
 	
